@@ -64,6 +64,7 @@ SRC     := binar.c \
 	detect.c \
 	dft.c \
 	free.c \
+	getmaps.c \
 	getmin.c \
 	globals.c \
 	imgutil.c \
