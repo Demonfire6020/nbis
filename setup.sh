@@ -175,15 +175,9 @@ fi
 
 #------------------------------- Set Current Path --------------------------------
 # Set Path
-if [ $MSYS_FLAG -eq 1 ]; then
-        MAIN_DIR=$FINAL_INSTALLATION_DIR
-        cd ..
-        NBIS_DIR=`dirname $MAIN_DIR;`
-else
-        MAIN_DIR=$PWD
-        cd ..
-        NBIS_DIR=$PWD
-fi
+MAIN_DIR=$PWD
+cd ..
+NBIS_DIR=$PWD
 
 cd $MAIN_DIR
 
