@@ -1,0 +1,15 @@
+*/bin/
+*/lib/
+*/obj
+*/p_rules.mak
+*.o
+*.exe
+endian.out
+exports/
+an2k.h
+little.h
+optrws.c
+rules.mak
+arch.mak
+libjpegb.a
+select.c
